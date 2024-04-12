@@ -40,6 +40,7 @@ function Signup() {
         {error && <div className="bg-red-500 text-white p-2 mb-2">{error}</div>}
         <h1 className="text-4xl font-bold mb-7">Signup</h1>
 
+
         <label className="text-slate-300">Fullname:</label>
         <input
           type="text"
