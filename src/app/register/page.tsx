@@ -24,7 +24,7 @@ function Signup() {
         redirect: false,
       });
 
-      if (res?.ok) return router.push("/dashboard");
+      if (res?.ok) return router.push("/dashboard/profile");
     } catch (error) {
       console.log(error);
       if (error instanceof AxiosError) {
