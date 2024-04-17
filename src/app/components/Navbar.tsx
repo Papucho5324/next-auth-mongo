@@ -1,5 +1,7 @@
+
 import Link from "next/link";
 import { getServerSession } from "next-auth";
+import { useSession, signOut } from "next-auth/react";
 
 async function Navbar() {
   const session = await getServerSession();
@@ -18,6 +20,7 @@ async function Navbar() {
                 <Link href="/dashboard/profile">Perfil</Link>
               </li>
             </>
+            
           ) : (
             <>
               <li className="px-3 py-1">

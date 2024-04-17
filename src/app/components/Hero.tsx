@@ -2,7 +2,7 @@ import TypeWriteEffect from "./TypeWriteEffect";
 
 const Hero = () => {
   return ( 
-    <div className='w-[100vw] pt-[4vh] md:pt-[12vh] h-[85vh] md:h-[100vh] custom-bg'>
+    <div className='w-[100vw] pt-[4vh] md:pt-[12vh] h-[85vh] md:h-[100vh] custome-bg'>
       <div className='flex justify-center flex-col w-[80%] h-[100%] mx-auto'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[3rem] items-center'>
           <div>
@@ -21,7 +21,7 @@ const Hero = () => {
               Te invitamos a descubrir un mundo de posibilidades ilimitadas en comunicación con <span>Xpectra</span>.
             </p>
             <div className='mt-[2rem] flex items-center space-x-6'>
-              <a href="/#/registrarse">
+              <a href="/register">
               <button 
               data-aos="zoom-in" 
               data-aos-delay="1200"
