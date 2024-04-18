@@ -19,6 +19,12 @@ async function Navbar() {
               <li className="px-3 py-1">
                 <Link href="/dashboard/profile">Perfil</Link>
               </li>
+              <li className="px-3 py-1">
+                <Link href="/dashboard/soporte">Soporte Tecnico</Link>
+              </li>
+              <li className="px-3 py-1">
+                <Link href="/api/auth/signout">LogOut</Link>
+              </li>
             </>
             
           ) : (
