@@ -25,13 +25,13 @@ const Footer = () => {
                     </p>
                 </a>
                 
-                <a href="/#/paquetes">
+                <a href="/paquetes">
                     <p className='text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'>
                         Paquetes
                     </p>
                 </a>
                 
-                <a href="/#/registrarse">
+                <a href="/register">
                     <p className='text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'>
                         Registrarse
                     </p>
