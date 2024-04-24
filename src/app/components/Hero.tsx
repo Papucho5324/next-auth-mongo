@@ -2,8 +2,8 @@ import TypeWriteEffect from "./TypeWriteEffect";
 
 const Hero = () => {
   return ( 
-    <div className='w-[100vw] pt-[4vh] md:pt-[12vh] h-[85vh] md:h-[100vh] custome-bg'>
-      <div className='flex justify-center flex-col w-[80%] h-[100%] mx-auto'>
+    <div className='w-[100vw] pt-[4vh] md:pt-[12vh] h-[85vh] md:h-[100vh] custom-bg'>
+      <div className='flex justify-center flex-col w-[80%] h-[100%] mx-auto '>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[3rem] items-center'>
           <div>
             <h1 data-aos="fade-right" className='text-[#c4cfde] mb-[1.3rem]'>Alta velocidad, alta confiabilidad.</h1>

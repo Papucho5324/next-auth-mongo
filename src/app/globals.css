@@ -36,12 +36,13 @@ body {
   }
     
   .custom-bg {
-      background-image: linear-gradient(to right, rgba(0,0,0,0.836), rgba(0,0,0,0.811)), url("/src/assets/world-by-nasa.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      clip-path: polygon(0 0,100% 0, 100% 95%, 0% 100%);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.836), rgba(0,0,0,0.811)), url("/public/world-by-nasa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0,100% 0, 100% 95%, 0% 100%);
   }
+  
 
 }
 
